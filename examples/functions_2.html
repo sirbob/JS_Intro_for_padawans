@@ -1,0 +1,29 @@
+<h1>Check console output! (press F12)</h1>
+<script type="text/javascript">
+function bat(){
+	return 'Batman'
+}
+
+function spidey () {
+	return 'Spider Man'
+}
+
+console.log('1.')
+console.log(bat()) //prints the return value
+
+console.log('2.')
+console.log(spidey()) //prints the function
+
+bat = spidey;
+
+
+console.log('3. bat is now a spidey!')
+console.log(bat()) //prints 'Spider Man'
+
+bat = new Date();
+
+console.log('4. TypeError! bat is no longer a function, can\'t be executed using ()')
+console.log(bat()) //TypeError! bat is no longer a function, can't be executed using ()
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">

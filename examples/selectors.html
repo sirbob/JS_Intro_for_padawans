@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Selectors Playground</title>
+	<style type="text/css">
+	body{
+		font-family: "Consolas" Verdana sans-serif;
+		font-size:13px;
+		background: #dedede;
+		min-width:700px;
+
+	}
+		.samurai, .peasant, .farmer{
+			width:90px;
+			height:15px;
+			padding:5px;
+			margin:10px;
+			text-align: center;
+			border:solid 2px #006090;
+			border-radius: 7px; 
+		}
+		.boss{
+			width:90%;
+			height:100%;
+			text-align: left;
+			background: #fafafa;
+			margin: 10px auto;
+		}
+		.soldier, .peasant{
+			display: inline-block;
+			border-color: #99CCFF;
+			background: #dedede;
+		}
+		.boss_name{
+			color: #006090;
+			font-weight: bold;
+			font-size: 1.5em;
+			display: inline-block;
+			width: 100px;			
+		}
+		#fate_box{
+			width:90%;
+			height:67px;
+			text-align: left;
+			margin: 10px auto;
+			border:solid 2px #006090;
+			border-radius: 10px; 
+			padding:11px 5px;
+			background: #fafafa;
+		}
+		#search_box{
+			width:90%;
+			min-height: 300px;
+			margin:0 auto;
+			padding:11px 5px;
+			background: #fafafa;
+			border:solid 2px #006090;
+			border-radius: 10px; 
+		}
+
+		#search_box input, h3{
+			margin: 15px 0 0 50px;
+		}
+
+		#search_box div{
+			width:100%;
+			float: left;
+			max-height: 200px;
+		}
+	
+
+		.selected{
+			border: solid 2px orange;
+			border-radius: 7px;
+			
+
+-webkit-transition: color .25s linear;
+transition: color .25s linear;
+		}
+
+		#honda *{
+			   -webkit-transition: all .3s ease-out; 
+   -moz-transition: all .3s ease-out; 
+   -o-transition: all .3s ease-out; 
+   transition: all .3s ease-out;
+		}
+
+.zoom { 
+   -moz-transform: scale(1.4);
+   -webkit-transform: scale(1.4);
+   -o-transform: scale(1.4);
+   transform: scale(1.4);
+   -ms-transform: scale(1.4);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',M11=1.4, M12=-0, M21=0, M22=1.4);
+   }
+
+  ul li {
+ float: left;
+ list-style-type: none;
+}
+
+ul li ul li {
+ float: none;
+ margin-left: 20px;
+ padding:2px;
+}
+   a{
+   	text-decoration: none;
+   }
+	</style>
+</head>
+<body>
+	<!-- <h3>jQuery Selectors Playground</h3> -->
+	<div id="honda" name="honda_san" class="clan_master">
+
+<div name="sonya" id="army_boss" class="samurai boss">
+	<span class="boss_name">SONYA</span>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+	<div name="sonya_soldier" class="samurai soldier">sonya_soldier</div>
+</div>
+<div name="conan" id="gang_boss" class="samurai boss ronin">
+	<span class="boss_name">CONAN</span>
+	<div name="conan_soldier" class="samurai soldier ronin">conan_soldier</div>
+	<div name="conan_soldier" class="samurai soldier ronin one-eyed">conan_soldier</div>
+	<div name="conan_soldier" class="samurai soldier ronin">conan_soldier</div>
+</div>
+<div name="damo" id="farmer_boss" class="farmer boss" fat="true">
+	<span class="boss_name">DAMO</span>
+	<div name="damo_farmer" class="peasant">damo_farmer</div>
+	<div name="damo_farmer" id="fat_farmer" class="peasant fatso">damo_farmer</div>
+	<div name="damo_farmer" class="peasant">damo_farmer</div>
+</div>
+<div id="fate_box">
+	<span class="boss_name">Choose your fate:</span>
+	<span>
+		<input type="checkbox" name="a" value="red" checked>
+	</span>
+	<label for="a">Decapitation</label>
+	<span>
+		<input type="checkbox" name="b" value="yellow">
+	</span>
+	<label for="b">Sepuku/Harakiri</label>
+
+	<span>
+		<input type="checkbox" name="c" value="blue">
+	</span>
+	<label for="c">Banishment</label>
+</div>
+</div>
+<div id="search_box">
+	<div>
+	<h3>Type in jQuery Selectors</h3>
+	<input type="text" id="search_in" />
+	<button>Select</button>
+</div>
+	<div>
+		<h3>Try it with these:</h3>
+		<ul id="main_list">
+			<li>
+				<ul>
+					<li>
+						<a href="#_">div</a>
+					</li>
+					<li>
+						<a href="#_">span</a>
+					</li>
+					<li>
+						<a href="#_">div span</a>
+					</li>
+					<li>
+						<a href="#_">div div.ronin</a>
+					</li>
+					<li>
+						<a href="#_">div.boss div.one-eyed</a>
+					</li>
+					<li>
+						<a href="#_">.boss .one-eyed</a>
+					</li>
+				<li>
+						<a href="#_">.samurai</a>
+					</li>
+				
+				</ul>
+			</li>
+			<li>
+				<ul>
+						
+					<li>
+						<a href="#_">.soldier</a>
+					</li>
+						<li>
+						<a href="#_">.peasant</a>
+					</li>
+					<li>
+						<a href="#_">#army_boss</a>
+					</li>
+					<li>
+						<a href="#_">.ronin</a>
+					</li>
+					<li>
+						<a href="#_">#fat_farmer</a>
+					</li>
+					<li>
+						<a href="#_">input[type*=ch]:checked</a>
+					</li>
+					
+					<li>
+						<a href="#_">[name*=sonya]</a>
+					</li>
+
+				
+
+				</ul>
+			</li>
+			<li>
+				<ul>
+						
+					<li>
+						<a href="#_">[name^=sonya]</a>
+					</li>
+					<li>
+						<a href="#_">[name$=soldier]</a>
+					</li>
+					<li>
+						<a href="#_">[name=damo_farmer]</a>
+					</li>
+					<li>
+						<a href="#_">div[name=sonya_soldier]</a>
+					</li>
+					<li>
+						<a href="#_">[name=damo_farmer]</a>
+					</li>
+					<li>
+						<a href="#_">input[type!=ed]:not(:checked)</a>
+					</li>
+					<li>
+						<a href="#_">:checkbox</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/wobblyfx.js"></script>
+
+<script>
+var interval;
+$(function(){	
+	$('button').click(clickAndEnterHandler);
+	$('#search_in').keypress(function (evt) {
+		console.log(evt.keyCode)
+		if(evt.keyCode === 13){
+			clickAndEnterHandler();
+		}
+	})
+	$('a').click(function(evt) {
+		$('#search_in').val($(this).text());
+		$('button').click();
+	})
+})
+
+function zoomInOut ($element) {
+	if($element.hasClass('zoom')){
+		$element.removeClass('zoom');	
+	}else{
+		$element.addClass('zoom');
+	}
+}
+	function wobble($element){
+		console.log('wobble')
+	$('#farmer_boss').wobblyFX();
+	}
+	function clickAndEnterHandler () {
+		
+		if(interval){
+			console.log('clearInterval')
+			clearInterval(interval);
+		}
+		$('.zoom').removeClass('zoom');
+		$('.selected').removeClass('selected');
+		var selector = $('#search_in').val();
+		console.log(selector)
+		selector = (selector ==='') ? 'asdgfrgg47g' : selector;
+		$element = $('#honda '+selector);
+		if($element.is('input[type=checkbox]')){
+			console.log('checkbox')
+			$element.addClass('zoom');
+			interval = setInterval(zoomInOut,300, $element);	
+		} else {
+			console.log('hi')
+			$element.addClass('selected');			
+			// $element.addClass('zoom');
+		}
+	}
+</script>
+</body>
+</html>

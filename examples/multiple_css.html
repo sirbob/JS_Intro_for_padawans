@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Some title</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style type="text/css">
+		.tile_div{
+			width: 250px; 
+			height:250px;
+			background:#006699; 
+			display:inline-block;
+			margin:25px ;
+		}	
+	</style>
+</head>
+<body>
+	<h2>Styled by jQuery using addClass()</h2>
+	<div id="batman" ></div>
+	<div id="robin" ></div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+		var list = document.getElementsByTagName('div');		
+		//lets give them some width, height and a border
+
+		for (var i = list.length - 1; i >= 0; i--) {
+			var div = list[i];
+			// console.log(div)
+			div.style.width = '250px';
+			div.style.height = '250px';
+			div.style.backgroundColor = '#006699';
+			div.style.display = 'inline-block';
+			div.style.margin = '25px';
+		};
+		//A LOT OF WORK!!!!
+
+		//some EVIL chaining - don't do it!!!!!!!!!!!!!!!!!!
+		$('div').css('width', '250px').css('height','250px').css('background','#006699').css('display','inline-block').css('margin','25px');
+
+		//you can use this - still not very good
+		$('div').css({ 'width': '250px', 'height':'250px', 'background':'#006699', 'display':'inline-block','margin':'25px' });		
+
+		//this is best - SWEET!
+		$('div').addClass('tile_div');
+	</script>
+</body>
+</html>

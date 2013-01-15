@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Self Executing Stuff</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<h1>Check console output! (press F12)</h1>
+
+
+
+
+<script>
+
+function youNeedToCallMe_maybe () {
+	console.log( 'I only run when you call me, madame')
+}
+
+(function () {
+	console.log( 'I run when parsing reaches me.. I self execute! burn baby, burn...')
+})()
+
+</script>
+</body>
+</html>

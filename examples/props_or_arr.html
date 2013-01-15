@@ -1,0 +1,13 @@
+<h1>Check console output! (press F12)</h1>
+<script type="text/javascript">
+	function foo(properties) {
+		//if properties is empty then assign empty array
+		var props = properties || [];
+		console.log('Props: ' + props.toString());
+	}
+
+	foo(['ka', 'wa', 'ban', 'ga']); // prints ka,wa,ban,ga
+
+	foo(); // prints nothing, i.e. array is empty
+</script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">

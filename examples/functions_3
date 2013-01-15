@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Self Executing Stuff</title>
+</head>
+<body>
+	
+
+
+
+
+<script>
+
+function youNeedToCallMe_maybe () {
+	console.log( 'I only run when you call me, madame')
+}
+
+function () {
+	console.log( 'I wait for nothing, just do my stuff.. u looser!')
+};
+()
+
+</script>
+</body>
+</html>

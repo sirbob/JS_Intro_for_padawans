@@ -1,0 +1,16 @@
+
+<h1>Check console output! (press F12)</h1>
+<div id="baz"></div>
+
+<script type="text/javascript">
+	window.foo = function() {
+		console.log(this);
+	}
+
+	foo(); //prints window
+
+	var baz = document.getElementById('baz');
+	foo.call(baz); //prints div
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">

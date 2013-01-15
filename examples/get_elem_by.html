@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<p><h2>Check console output! (press F12)</h2></p>
+	<div id="batman" ></div>
+	<div id="robin" ></div>
+	<script type="text/javascript">
+		var list = document.getElementsByTagName('div');
+		console.log('Sir, we have found **' + list.length + '** divs!');
+
+		var bat = document.getElementsByTagName('div')[0];   //or list[0]
+		console.log('We got him! he\'s called: **' + bat.id + '**');
+
+		var robinho = document.getElementsByTagName('div')[1];   //or list[1]
+		console.log('We got him! he\'s called: **' + robinho.id + '**');
+
+
+		//lets give them some width, height and a border
+
+		for (var i = list.length - 1; i >= 0; i--) {
+			var div = list[i];
+			console.log(div)
+			div.style.width = '250px';
+			div.style.height = '250px';
+			div.style.backgroundColor = '#006699';
+			div.style.display = 'inline-block';
+			div.style.margin = '25px';
+		};
+		//A LOT OF WORK!!!!
+	</script>
+</body>
+</html>
