@@ -62,7 +62,7 @@
 		    <h2>Data Types (some)</h2>
 		    <ul>
 			<li>String (no Char) – double or single quotes</li>
-			<li>Number – 64 bit float. 11.0 is the same as 11. Don’t do financial Math in JS!</li> 
+			<li>Number – 64 bit double float. 11.0 is the same as 11. Don’t do financial Math in JS!</li> 
 			<li>Object</li> 
 			<li>Boolean</li>
 			<li>Array</li>
@@ -96,7 +96,7 @@
 		    <h2>Operators & Statements</h2>
 		    <ul>
 			<li>*Almost* the same as Java</li>
-			<li>++ (addition and String concatenation) (addition and String concatenation), -, ** / , /</li>
+			<li>+ (addition and String concatenation), -, *, / </li>
 			<li>&&, ||, ++, --, etc</li>
 			<li>Comments - Same as in Java (/* ... */ and // ...)</li>
 		    </ul>
@@ -170,8 +170,11 @@
 		    <section>
 			<h3>True Values</h3>
 			<p>“true”: anything else (including the string “false”!)</p>
-			<p><a target="_blank" href="../examples/props_or_arr.html">Demo</a></p>
+			<p><a target="_blank" href="../examples/props_or_arr.html">Trick</a></p>
 		    </section>
+		</section>
+		<section>
+		    <h1>Functions!</h1>
 		</section>
 		<section>
 		    <h3>Function - 1st Citizen</h3>
@@ -234,8 +237,8 @@ burp()	    //undefined!
 
 		<section>
 		    <h1>JQUERY</h1>
-		    <p>New Kid on the Block!</p>
-		    <p><img  src="C:\Users\dkrawcewicz\Documents\WORK_AREA\JS_TRAINING\img\new_kids.jpg" alt="Down arrow"></p>
+		    <p>The New Kid on the Block!</p>
+		    <p><img  src="../img/new_kids.jpg" alt="Down arrow"></p>
 		</section>
 		<section>
 		    <section>
@@ -283,7 +286,7 @@ burp()	    //undefined!
 &lt;/html&gt;
 </code>
 			</pre>
-			<p><img src="C:\Users\dkrawcewicz\Documents\WORK_AREA\JS_TRAINING\img\dom.png" alt="DOM" /></p>			
+			<p><img src="../img/dom.png" alt="DOM" /></p>			
 		    </section>
 		    <section>
 			<h2>Try it!</h2>
@@ -345,24 +348,7 @@ $(‘input[type$=ate]’) //matches first one
 $(‘div > img’) //matches the first one, id=1
 
 </code></pre>
-		</section>
 
-		<section>
-		    <h2>jQuery Wrapper</h2>
-		    <ul>
-			<li>$(selector) wraps the matched elements in a jQuery wrapper object.</li>
-			<li>jQuery wrapper is never null!</li>
-			<li>Use length === 0 to test for existence (if 0 then nothing matched</li>
-		    </ul>
-		    <p><a target="_blank" href="../examples/length.html">Demo</a></p>
-		</section>
-		<section>
-		    <h2>jQuery Wrapper</h2>
-		    <ul>
-			<li>$(selector) wraps the matched elements in a jQuery wrapper object.</li>
-			<li>jQuery wrapper is never null!</li>
-			<li>Use length === 0 to test for existence (if 0 then nothing matched</li>
-		    </ul>
 		</section>
 		<section>
 		    <h2>jQuery Selectors – multiple match</h2>
@@ -375,9 +361,24 @@ $(‘div’).addClass(‘someClass’);
 </code></pre>
 		    <p><a target="_blank" href="../examples/multiple_css.html">Demo</a></p>
 		</section>
+		<section>
+		    <h2>jQuery Wrapper</h2>
+		    <ul>
+			<li>$(selector) wraps the matched elements in a jQuery wrapper object.</li>
+			<li>jQuery wrapper is never null!</li>
+			<li>Use length === 0 to test for existence (if 0 then nothing matched)</li>
+		    </ul>
+		    <p><a target="_blank" href="../examples/length.html">Demo</a></p>
+		</section>
+
 
 		<section>
-		    <h2>jQuery Methods – find()</h2>
+		    <h1>JQuery Methods</h1>
+		    <p><img src="../img/dragon.jpg" alt="enter the jquery" /></p>
+		    <h3>Enter the JQuery</h3>   
+		</section>
+		<section>
+		    <h2>find()</h2>
 		    <blockquote>
 			Find -  Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
 		    </blockquote>
@@ -434,7 +435,7 @@ var thumbs = divs.find(‘.thumb’);//elems with class thumb in divs
 		    <blockquote>
 			index - Search for a given element from among the matched elements
 		    </blockquote>
-
+		    <p><a target="_blank" href="../examples/index.html">DEMO</a></p>
 		    <p><a target="_blank" href="http://api.jquery.com/index/">API Docs</a></p>
 		</section>
 		<section>
@@ -468,9 +469,7 @@ element.bind(eventType,[data], handler(eventObject))
 //example
 $('#damo').bind('click', function() { alert(‘I lav ya man’); });
 </code></pre>
-		    DEMO!!!!!!!!!!!!!!
 		</section>
-
 		<section>
 		    <h2>JQuery Events Shorthand</h2>
 		    <p>Many common event listeners have shorthand versions, for example:
@@ -478,48 +477,6 @@ $('#damo').bind('click', function() { alert(‘I lav ya man’); });
 element.click(function(evt){//do smthng})
 </code></pre>
 		    <p>Full list: <a href="http://api.jquery.com/category/events/" target="_blank">API Docs</a></p>
-		</section>
-		<section>
-		    <h2>Events bubbling vs capturing</h2>
-		    <pre><code contenteditable>
-&lt;div id=“1”&gt;
-	&lt;div id=“2”&gt;&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-		    <ul>
-			<li>
-			    Capturing – Netscape<br />
-			    Click will first fire on id=1 then on id=2</li>
-			<li>Bubbling – Microsoft<br />
-			    Click will first fire on id=2, then on id=1
-
-			</li>
-		    </ul>
-		    <p><a href="http://www.quirksmode.org/js/events_order.html" target="_blank">More Info 1</a></p>
-		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM_Client_Object_Cross-Reference/DOM_Events" target="_blank">More Info 2</a></p>
-		</section>
-
-
-		<section>
-		    <h2>Helper stop event function</h2>
-		    <pre><code contenteditable>
-function stopEvent(e) {
-	//we don’t like nulls
-    	if(!e) var e = window.event;
-
-    //e.cancelBubble is supported by IE -
-    // this will stop the bubbling process.
-    e.cancelBubble = true;
-    e.returnValue = false;
-
-    	//if supported – DO IT!
-	if(e.stopPropagation) e.stopPropagation();
-    	if(e.preventDefault) e.preventDefault();
-
-    	return false;
-}
-
-</code></pre>
 		</section>
 		<section>
 		    <h2>Ready vs Load</h2>
@@ -556,34 +513,144 @@ $(function(){
 			</ol>
 		    </section>
 		    <section>
-			<p><img src="C:\Users\dkrawcewicz\Documents\WORK_AREA\JS_TRAINING\img\mais_timeline.bmp" alt="timeline" /></p>
+			<p><img src="../img/mais_timeline.bmp" alt="timeline" /></p>
 		    </section>
 		</section>
 
+
+
+
+		<section>
+		    <h2>Events bubbling vs capturing</h2>
+		    <pre><code contenteditable>
+&lt;div id=“1”&gt;
+	&lt;div id=“2”&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+		    <ul>
+			<li>
+			    Capturing – Netscape<br />
+			    Click will first fire on id=1 then on id=2</li>
+			<li>Bubbling – Microsoft<br />
+			    Click will first fire on id=2, then on id=1
+
+			</li>
+		    </ul>
+		    <p><a href="http://www.quirksmode.org/js/events_order.html" target="_blank">More Info 1</a></p>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM_Client_Object_Cross-Reference/DOM_Events" target="_blank">More Info 2</a></p>
+		</section>
+
+
+
+
 		<section>
 		    <h2>Callbacks</h2>
+		    <p>
+			The idea is:
+		    </p>
+		    <ul>
+			<li>
+			    run a function that does something and when it's finished execute the callback.
+			</li>
+		    </ul>
+		    <pre><code contenteditable>
+function callMeMaybe(){
+    console.log('I'm a callback girl');
+}
+
+$.ajax(function(){
+    //get some Ajax here. Maybe the girls number?
+}, function(){
+    //this is a callback!
+    callMeMaybe();
+})
+</code></pre>
 		</section>
+
+
+
+
 
 		<section>
 		    <h2>AJAX speaks JSON</h2>
 		    <ul>
-			<li>Object Literal example</li>
-			<li>What is JSON, syntax + rules</li>
-			<li>JSON parsing</li>
+			<li>Object Literal <a href="http://damo1.herokuapp.com/people/all" target="_blank">example</a></li>
+			<li>syntax + rules</li>
+			<li>JSON parsing
+			    <ul>
+				<li>eval()</li>
+				<li>JSON.parse() - <a href="http://caniuse.com/json" target="_blank">Supported browsers</a> | <a href="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" target="_blank">Patch it!</a></li>
+				<li>$.parseJSON()</li>
+			    </ul></li>
 		    </ul>
+		    <p>Good approach</p>
+		    <pre><code contenteditable>
+var json = '{"result":true,"count":1}',
+    obj = JSON && JSON.parse(json) || $.parseJSON(json);
+</code></pre>
+		    <p><a href="http://stackoverflow.com/questions/4935632/how-to-parse-json-in-javascript" target="_blank">Reference</a></p>
 		</section>
 		<section>
 		    <h2>Jquery AJAX()</h2>
 		    <ul>
 			<li>Object Literal example</li>
-			<li>What is JSON, syntax + rules</li>
-			<li>JSON parsing</li>
+			<pre><code contenteditable>var myObject = {
+    sProp: 'some string value',
+    numProp: 2,
+    bProp: false
+};</code></pre>
+			<li><a href="http://api.jquery.com/jQuery.ajax/" target="_blank">API Docs</a></li>
 		    </ul>
+		    <p>Example:</p>
+		    <pre><code contenteditable>
+	$.ajax ({
+	    url: 'http://damo1.herokuapp.com/people/all',
+	    type: 'GET',
+	    dataType: "json",
+	    statusCode:{
+		200: function(data){	
+		    $(document).one('ajaxStop', function(){
+			console.log(data.responseText);
+		    });
+		}
+	    },
+	    headers: { 
+		'Accept': 'text/*',
+		'Content-Type': 'application/json' 
+	    }
+	});
+</code></pre>
 		</section>
 		<section>
 		    <h2>jQuery getJSON() sendJSON()</h2>
-		    
+
 		</section>
+		<section>
+		    <h1>Some Ninja Moves</h1>
+		    <p><img  src="../img/ninja.jpg" alt="Down arrow"></p>
+		</section>
+		<section>
+		    <h2>Helper stop event function</h2>
+		    <pre><code contenteditable>
+function stopEvent(e) {
+	//we don’t like nulls
+    	if(!e) var e = window.event;
+
+    //e.cancelBubble is supported by IE -
+    // this will stop the bubbling process.
+    e.cancelBubble = true;
+    e.returnValue = false;
+
+    	//if supported – DO IT!
+	if(e.stopPropagation) e.stopPropagation();
+    	if(e.preventDefault) e.preventDefault();
+
+    	return false;
+}
+
+</code></pre>
+		</section>
+
 		<section>
 		    <h2>Console.log function - Dev Tools</h2>
 		    <pre><code contenteditable>
@@ -609,12 +676,23 @@ $(function(){
     }
 }());
 </code></pre>
-			Taken from <a href="http://html5boilerplate.com/">html5 boilerplate</a> project. <h4>All rights and glory to them!</h4>
+		    Taken from <a href="http://html5boilerplate.com/">html5 boilerplate</a> project. <h4>All rights and glory to them!</h4>
 		</section>
 		<section>
-		    <h2>jquery always returns this + chaining</h2>
+		    <h2>Other tricks</h2>
+		    <ul>
+			<li>
+			    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;
+			</li>
+			<li>
+			    &lt;!DOCTYPE html&gt;
+			</li>
+			<li>Use CDN!: 
+			    &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"&gt;&lt;/script&gt;
+			</li>
+		    </ul>
 		</section>
-		
+
 		<section>
 		    <h2>jquery UI</h2>
 		    http://api.jqueryui.com/

@@ -1,0 +1,32 @@
+
+<style>
+	table{
+		width: 60%;
+		color:#333;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	td{
+		width:50px;
+		height:50px;
+		background-color: #dedede;
+	}
+</style>
+<h1>Check console output! (press F12)</h1>
+  <table border="1">
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr><td>4</td><td>5</td><td>6</td></tr>
+    <tr><td>7</td><td>8</td><td>9</td></tr>
+  <tbody>
+</table>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+$('td').click(function(){
+    var colIndex = $(this).parent().children().index($(this));
+    var rowIndex = $(this).parent().parent().children().index($(this).parent());
+    alert('Row: ' + rowIndex + ', Column: ' + colIndex);
+});
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">

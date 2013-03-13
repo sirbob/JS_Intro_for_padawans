@@ -2,12 +2,12 @@
 <script type="text/javascript">
 	function foo(properties) {
 		//if properties is empty then assign empty array
-		var props = properties || [];
+		var props = properties || ['damo', 'stam'];
 		console.log('Props: ' + props.toString());
 	}
 
 	foo(['ka', 'wa', 'ban', 'ga']); // prints ka,wa,ban,ga
 
-	foo(); // prints nothing, i.e. array is empty
+	foo(0); // prints nothing, i.e. array is empty
 </script>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
