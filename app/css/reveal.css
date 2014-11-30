@@ -305,15 +305,34 @@ body {
 	max-height: 400px;
 }
 
+/*.reveal table th,*/
+/*.reveal table td {*/
+	/*text-align: left;*/
+	/*padding-right: .3em;*/
+/*}*/
+
+/*.reveal table th {*/
+	/*text-shadow: rgb(255,255,255) 1px 1px 2px;*/
+/*}*/
+
+
+.reveal table {
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0; }
+
+.reveal table th {
+	font-weight: bold; }
+
 .reveal table th,
 .reveal table td {
 	text-align: left;
-	padding-right: .3em;
-}
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	border-bottom: 1px solid; }
 
-.reveal table th {
-	text-shadow: rgb(255,255,255) 1px 1px 2px;
-}
+.reveal table tr:last-child td {
+	border-bottom: none; }
+
 
 .reveal sup {
 	vertical-align: super;

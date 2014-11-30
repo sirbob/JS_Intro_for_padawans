@@ -1,0 +1,13 @@
+<section>
+    <h2>Variable Scope</h2>
+    <ul>
+        <li>Global - set on window when you run &lt;script&gt;</li>
+        <li>Function – set privately inside of the function</li>
+        <li>No block scope</li>
+        <li>"this" keyword – refers to object currently running the function</li>
+
+
+
+    </ul>
+    <p><a target="_blank" href="../examples/this.html">Demo</a></p>
+</section>

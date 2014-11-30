@@ -1,0 +1,36 @@
+<section>
+		    <h2>Selecting Elements with JQUERY</h2>
+		    <pre><code contenteditable>
+&lt;div id=“kickass” /&gt;
+$(‘#kickass’) //ids are unique!
+</code></pre>
+		    <pre><code contenteditable>
+&lt;div class=“small_box” /&gt;
+&lt;div class=“small_box” /&gt;
+$(‘.small_box’) //matches 2 divs
+</code></pre>
+		    <pre><code contenteditable>
+&lt;input type=“email” /&gt;
+&lt;input type=“email” /&gt;
+$(‘input[type=email]’) //matches both
+</code></pre>
+		    <pre><code contenteditable>
+&lt;input type=“date” /&gt;
+&lt;input type=“datetime” /&gt;
+$(‘input[type*=date]’) //matches both
+</code></pre>
+		    <pre><code contenteditable>
+&lt;input type=“date” /&gt;
+&lt;input type=“datetime” /&gt;
+$(‘input[type$=ate]’) //matches first one
+</code></pre>
+		    <pre><code contenteditable>
+&lt;div&gt;
+      &lt;img src=“bla.jpg” id=“1” /&gt;
+&lt;/div&gt;
+&lt;img src=“bla.jpg” id=“2” /&gt;
+$(‘div > img’) //matches the first one, id=1
+
+</code></pre>
+
+		</section>

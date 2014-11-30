@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – parent()</h2>
+		    <blockquote>
+			parent([selector]) - Get the parent of each element in the current set of matched elements, optionally filtered by a selector.
+		    </blockquote>
+
+		    <p><a target="_blank" href="http://api.jquery.com/parent/">API Docs</a></p>
+		</section>

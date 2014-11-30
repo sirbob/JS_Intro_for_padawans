@@ -1,0 +1,58 @@
+<section>
+    <section>
+    <h2>Numbers</h2>
+    <ul>
+        <li>single Number type</li>
+        <li>64-bit floating point - same as Java double</li>
+        <li>no separate integer type, e.g. 1 and 1.0 are the same value</li>
+        <li>so, no problems with int overflows :-)</li>
+
+    </ul>
+    </section>
+    <section>
+        <h2>Special values - NaN</h2>
+        <ul>
+        <li>NaN - result of an operation that cannot produce a normal result</li>
+        <li> NaN is not equal to any value, including itself</li>
+        <li>detect NaN with the isNaN(number) function.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Special values - infinity</h2>
+       <p>Infinity represents all values greater than
+           <pre>
+        <code>                        1.79769313486231570e+308</code></pre> </p>
+    </section>
+    <section>
+        <h2>string conversion</h2>
+        <pre>
+            <code>
+                var num = +"1000";
+
+                //parseInt(string, radix)
+                var num = parseInt("1000", 10); //preferred!
+
+                var num = parseFloat("1000.32", 10);
+            </code>
+        </pre>
+    </section>
+    <section>
+        <h2>Good practices</h2>
+        <h4></h4>
+
+        <p> Always specify radix in parseInt(string, radix). <br>Otherwise:
+            <ol>
+                <li>"0x", then radix is 16 (hexadecimal)
+                <li>"0", then radix is 8 (octal). This feature is deprecated
+                <li>If the string begins with any other value, the radix is 10 (decimal)
+            </ol>
+        Most of the time, you will use :
+<pre><code>
+
+    var my_int = parseInt(my_string, 10);
+
+</code> </pre>
+        </p>
+
+    </section>
+</section>

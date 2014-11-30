@@ -1,0 +1,7 @@
+<section>
+    <h2>Dynamically Typed</h2>
+    <ul>
+        <li>You do not declare variable types</li>
+        <li>JavaScript's typing is dynamic (meaning a variable can hold an object of any type and cannot be restricted).</li>
+    </ul>
+</section>

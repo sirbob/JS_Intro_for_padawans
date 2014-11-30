@@ -1,0 +1,17 @@
+<section>
+		    <h2>Selecting Elements in pure JS</h2>
+		    <p>Pure JS way (often requires traversing collections of returned objects):</p>
+		    <pre><code contenteditable>elements = document.getElementsByTagName(name); //returns Nodelist</code></pre>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByTagName">MDN Reference</a></p>
+
+		    <pre><code contenteditable>elements = document.getElementsByClassName(names); //Nodelist</code></pre>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByClassName">MDN Reference</a></p>
+
+		    <pre><code contenteditable>elements = document.getElementsByName(name);  //HTMLCollection</code></pre>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByName">MDN Reference</a></p>
+
+		    <pre><code contenteditable>element = document.getElementById(id); //returns Element Object</code></pre>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM/document.getElementById">MDN Reference</a></p>
+
+		    <p><a href="../examples/get_elem_by.html" target="_blank">DEMO</a></p>
+		</section>

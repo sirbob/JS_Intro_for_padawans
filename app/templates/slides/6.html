@@ -1,0 +1,53 @@
+<section>
+    <section>
+        <h2>Strings</h2>
+        <ul>
+            <li>single or double quotes</li>
+            <li>all characters are 16 bit Unicode</li>
+            <li>JS does not have char type</li>
+            <li>"\" escapes special characters</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>JS Escape Chars</h2>
+        <img src="../img/escape_chars.png"/>
+        <small>Borrowed from "JavaScript - The Good Parts" book</small>
+
+    </section>
+
+    <section>
+        <h2>literal vs object</h2>
+            <pre>
+            <code>
+                /* Literal - creates primitive */
+                var str1 = "foo";
+                var str2 = "foo";
+
+                /* Literal - creates object */
+                var strObj1 = new String("foo");
+                var strObj2 = new String("foo");
+
+                typeof strObj1;         //"object"
+                typeof str1;            //"string"
+
+                str1    === str2;       //true
+                strObj1 === strObj2;    //false
+                str1    ==  strObj1;    //true
+                str1    === strObj1;    //false
+            </code>
+                </pre>
+    </section>
+    <section>
+        <h2>Use literals - should be faster!</h2>
+        <p>Literals will be autoboxed/unboxed when required. <br>Most implementation do this efficiently by just adding methods that you want to use.</p>
+        <pre>
+            <code>
+    /* primitive with no methods - just a memory allocation. */
+    var s = 'foo';
+    /* autoboxing below, but only substring() will be added. */
+    s.substring('f');
+            </code>
+        </pre>
+    </section>
+</section>

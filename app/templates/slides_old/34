@@ -1,0 +1,8 @@
+<section>
+		    <h2>JQuery Events Shorthand</h2>
+		    <p>Many common event listeners have shorthand versions, for example:
+		    <pre><code contenteditable>
+element.click(function(evt){//do smthng})
+</code></pre>
+		    <p>Full list: <a href="http://api.jquery.com/category/events/" target="_blank">API Docs</a></p>
+		</section>

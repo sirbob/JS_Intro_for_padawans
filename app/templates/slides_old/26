@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – prev()</h2>
+		    <blockquote>
+			prev() - Get the immediately preceding sibling of each element in the set of matched elements, optionally filtered by a selector.
+		    </blockquote>
+
+		    <p><a target="_blank" href="http://api.jquery.com/prev/">API Docs</a></p>
+		</section>

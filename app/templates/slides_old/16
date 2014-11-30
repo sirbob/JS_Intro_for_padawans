@@ -1,0 +1,19 @@
+<section>
+		    <section>
+			<h2>JQuery Background</h2>
+			<ul>
+			    <li>Released in 2006 by <a href="http://en.wikipedia.org/wiki/John_Resig">John Resig</a></li>
+			    <li>Used by over 55% of the 10,000 most visited websites, jQuery is the most popular JavaScript library in use today (<a href="http://trends.builtwith.com/javascript/JQuery">builtwith.com</a>)</li>
+			</ul>
+		    </section>
+		    <section>
+			<h2>Use the Force!</h2>
+			<ul>
+			    <li>Simplifies DOM elements selection and manipulation</li>
+			    <li>Uses <a href="http://sizzlejs.com/">Sizzle</a> CSS selector engine</li>
+			    <li>Events, AJAX, Animations and FX</li>
+			    <li>Multi-browser</li>
+			    <li>Extensible!</li>
+			</ul>
+		    </section>
+		</section>

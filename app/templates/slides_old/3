@@ -1,0 +1,12 @@
+<section>
+    <h2>Data Types (some)</h2>
+    <ul>
+        <li>String (no Char) – double or single quotes</li>
+        <li>Number – 64 bit double float. 11.0 is the same as 11. Don’t do financial Math in JS!</li>
+        <li>Object</li>
+        <li>Boolean</li>
+        <li>Array</li>
+        <li>Undefined - is the value of a variable with no value. (when you call a method that doesn’t exist)</li>
+        <li>Null - Variables can be emptied by setting the value to null</li>
+    </ul>
+</section>

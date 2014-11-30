@@ -1,0 +1,21 @@
+<section>
+		    <h2>Helper stop event function</h2>
+		    <pre><code contenteditable>
+function stopEvent(e) {
+	//we don’t like nulls
+    	if(!e) var e = window.event;
+
+    //e.cancelBubble is supported by IE -
+    // this will stop the bubbling process.
+    e.cancelBubble = true;
+    e.returnValue = false;
+
+    	//if supported – DO IT!
+	if(e.stopPropagation) e.stopPropagation();
+    	if(e.preventDefault) e.preventDefault();
+
+    	return false;
+}
+
+</code></pre>
+		</section>

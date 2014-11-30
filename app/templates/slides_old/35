@@ -1,0 +1,23 @@
+<section>
+		    <h2>Ready vs Load</h2>
+		    <ul>
+			<li>DOM – browsers construct Document for each html doc; tree structure</li>
+			<li>JS onLoad event – when all loaded (img, css, etc)</li>
+			<li>jQuery document ready event – when DOM constructed (onDOMContentLoaded )</li>
+			<li>In IE not poss to know when, so they wait for scroll bar to appear</li>
+			<pre><code contenteditable>
+//onLoad, after all images, css, etc loaded
+&lt;body onload=“doThis()” /&gt;
+
+//onDOMContentLoaded, as soon as DOM ready - don't wait for img, css, etc
+$(document).ready(function(){
+    //do your stuff.......
+}
+
+//Shorthand
+$(function(){
+    //do your stuff.......
+})
+</code></pre>
+		    </ul>
+		</section>

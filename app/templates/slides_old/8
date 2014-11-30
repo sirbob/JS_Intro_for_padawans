@@ -1,0 +1,18 @@
+
+<section>
+    <section>
+        <h2>Semicolons</h2>
+        <h5>Semicolons are not mandatory (but helpful!)</h5>
+        <p>Example:</p>
+			<pre>
+			<code contenteditable>
+                return x
+
+                return
+                x
+            </code>
+			</pre>
+        <p>Press down key for answer</p>
+        <p class="fragment">In the second one JS will first return, then evaluate x</p>
+    </section>
+</section>

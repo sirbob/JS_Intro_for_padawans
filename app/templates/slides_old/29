@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – children()</h2>
+		    <blockquote>
+			children - Get the children of each element in the set of matched elements, optionally filtered by a selector.
+		    </blockquote>
+
+		    <p><a target="_blank" href="http://api.jquery.com/children/">API Docs</a></p>
+		</section>

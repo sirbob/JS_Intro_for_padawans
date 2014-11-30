@@ -1,0 +1,15 @@
+<section>
+		    <section>
+			<h2>DOM load exercise (Timeline)</h2>
+			<ol>
+			    <li>Open Chrome Dev Tools, then Timeline</li>
+			    <li>Go to a content heavy page</li>
+			    <li>Click record button</li>
+			    <li>When finished loading stop recoding</li>
+			    <li>Observe the thin blue and red lines (DOM ready and load complete)</li>
+			</ol>
+		    </section>
+		    <section>
+			<p><img src="../img/mais_timeline.bmp" alt="timeline" /></p>
+		    </section>
+		</section>

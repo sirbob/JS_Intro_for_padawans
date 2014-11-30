@@ -1,0 +1,86 @@
+<section>
+    <h2>Grammar (Some)</h2>
+    <img src="../img/grammar.jpg" />
+</section>
+
+<section>
+    <h2>Dynamically Typed</h2>
+    <ul>
+        <li>You do not declare variable types</li>
+        <li>JavaScript's typing is dynamic (meaning a variable can hold an object of any type and cannot be restricted).</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Variable Scope</h2>
+    <ul>
+        <li>Global - set on window when you run &lt;script&gt;</li>
+        <li>Function – set privately inside of the function</li>
+        <li>No block scope</li>
+        <li>"this" keyword – refers to object currently running the function (well, this is more complicated)</li>
+    </ul>
+    <p><a target="_blank" href="../examples/this.html">Demo</a></p>
+    More about contexts later...
+</section>
+
+<section>
+    <h2>Operators & Statements</h2>
+    <ul>
+        <li>*Almost* the same as Java</li>
+        <li>+ (addition and String concatenation), -, *, / </li>
+        <li>&&, ||, ++, --, etc</li>
+        <li>Comments - Same as in Java (/* ... */ and // ...)</li>
+    </ul>
+</section>
+<section>
+    <h2>==  and  === Example</h2>
+    <ul>
+        <li>The == comparison (just value, type coercion)</li>
+        <li>The The === operator (value and type)</li>
+        <li>Prefer === (strings can be compared with ==)</li>
+    </ul>
+    <p><a target="_blank" href="../examples/equality.html">Demo</a></p>
+    <p>
+        Reference:  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Comparison_Operators">MDN</a>
+    </p>
+</section>
+<section>
+    <section>
+        <h2>Semicolons</h2>
+        <h5>Semicolons are not mandatory (but helpful!)</h5>
+        <p>Example:</p>
+			<pre>
+			<code contenteditable>
+                return x
+
+                return
+                x
+            </code>
+			</pre>
+        <p>Press down key for answer</p>
+        <p class="fragment">In the second one JS will first return, then evaluate x</p>
+    </section>
+</section>
+<section>
+    <section>
+    <h2>statements</h2>
+    <img src="../img/statements.png" />
+    </section>
+    <section>
+        <h2 style="text-transform: lowercase !important">typeof operator</h2>
+        <ul>
+            <li>The values produced by typeof are: <br>
+                <pre><code>'number', 'string', 'boolean', 'undefined', 'function',  'object'
+                </code></pre>
+
+            <li>If the operand is an <u>array</u> or <u>null</u>, then the result is<br> <strong>'object'</strong> - WRONG!
+        </ul>
+        <img src="../img/typeof.jpg" />
+    </section>
+</section>
+<section>
+    <section>
+        <h1>Data Types</h1>
+        <img src="../img/bool_morena.jpg" />
+    </section>
+</section>

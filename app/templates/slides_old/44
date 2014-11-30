@@ -1,0 +1,27 @@
+<section>
+		    <h2>Console.log function - Dev Tools</h2>
+		    <pre><code contenteditable>
+(function() {
+    var method;
+    var noop = function noop() {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console |= window.console | {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+</code></pre>
+		    Taken from <a href="http://html5boilerplate.com/">html5 boilerplate</a> project. <h4>All rights and glory to them!</h4>
+		</section>

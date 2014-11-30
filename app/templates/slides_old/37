@@ -1,0 +1,19 @@
+<section>
+		    <h2>Events bubbling vs capturing</h2>
+		    <pre><code contenteditable>
+&lt;div id=“1”&gt;
+	&lt;div id=“2”&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+		    <ul>
+			<li>
+			    Capturing – Netscape<br />
+			    Click will first fire on id=1 then on id=2</li>
+			<li>Bubbling – Microsoft<br />
+			    Click will first fire on id=2, then on id=1
+
+			</li>
+		    </ul>
+		    <p><a href="http://www.quirksmode.org/js/events_order.html" target="_blank">More Info 1</a></p>
+		    <p><a href="https://developer.mozilla.org/en-US/docs/DOM_Client_Object_Cross-Reference/DOM_Events" target="_blank">More Info 2</a></p>
+		</section>

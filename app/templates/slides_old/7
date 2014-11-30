@@ -1,0 +1,12 @@
+<section>
+    <h2>==  and  === Example</h2>
+    <ul>
+        <li>The == comparison (just value, type coercion)</li>
+        <li>The The === operator (value and type)</li>
+        <li>Prefer === (strings can be compared with ==)</li>
+    </ul>
+    <p><a target="_blank" href="../examples/equality.html">Demo</a></p>
+    <p>
+        Reference:  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Comparison_Operators">MDN</a>
+    </p>
+</section>

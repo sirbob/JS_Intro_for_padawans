@@ -1,0 +1,10 @@
+<section>
+		    <h2>jQuery Events Binding</h2>
+		    <p>One method for all browsers</p>
+		    <pre><code contenteditable>
+element.bind(eventType,[data], handler(eventObject))
+
+//example
+$('#damo').bind('click', function() { alert(‘I lav ya man’); });
+</code></pre>
+		</section>

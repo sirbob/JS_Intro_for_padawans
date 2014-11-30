@@ -1,0 +1,11 @@
+<section>
+		    <h2>find()</h2>
+		    <blockquote>
+			Find -  Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.
+		    </blockquote>
+		    <pre><code contenteditable>var divs = $(‘div’); //remember, divs is a jQuery wrapper
+var thumbs = divs.find(‘.thumb’);//elems with class thumb in divs
+
+</code></pre>
+		    <p><a target="_blank" href="http://api.jquery.com/find/">API Docs</a></p>
+		</section>

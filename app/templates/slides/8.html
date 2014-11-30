@@ -1,0 +1,58 @@
+<section>
+    <section>
+        <h2>Boolean</h2>
+        <div class="reveal">
+            <h3>Falsy Values</h3>
+            <table>
+                <tr>
+                    <th>Value</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Number</td>
+                </tr>
+                <tr>
+                    <td>"" (empty string)</td>
+                    <td>String</td>
+                </tr>
+                <tr>
+                    <td>NaN</td>
+                    <td>Number</td>
+                </tr>
+                <tr>
+                    <td>false</td>
+                    <td>Boolean</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>Object</td>
+                </tr>
+                <tr>
+                    <td>undefined</td>
+                    <td>Undefined</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <h3>Truthy Values</h3>
+        <p>“true”: anything else (including the string “false”!)</p>
+    </section>
+
+    <section>
+        <h3>|| operator</h3>
+        <pre><code>
+            var name = 'Damo Bobson';
+            var greeting = name || 'John Doe';
+            console.log(greeting); //prints Damo Bobson
+        </code></pre>
+        <pre><code>
+            var name = "";
+            var greeting = name || 'John Doe';
+            console.log(greeting); //prints John Doe
+        </code></pre>
+
+    </section>
+
+</section>

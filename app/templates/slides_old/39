@@ -1,0 +1,19 @@
+<section>
+		    <h2>AJAX speaks JSON</h2>
+		    <ul>
+			<li>Object Literal <a href="http://damo1.herokuapp.com/people/all" target="_blank">example</a></li>
+			<li>syntax + rules</li>
+			<li>JSON parsing
+			    <ul>
+				<li>eval()</li>
+				<li>JSON.parse() - <a href="http://caniuse.com/json" target="_blank">Supported browsers</a> | <a href="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" target="_blank">Patch it!</a></li>
+				<li>$.parseJSON()</li>
+			    </ul></li>
+		    </ul>
+		    <p>Good approach</p>
+		    <pre><code contenteditable>
+var json = '{"result":true,"count":1}',
+    obj = JSON && JSON.parse(json) || $.parseJSON(json);
+</code></pre>
+		    <p><a href="http://stackoverflow.com/questions/4935632/how-to-parse-json-in-javascript" target="_blank">Reference</a></p>
+		</section>

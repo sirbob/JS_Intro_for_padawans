@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – index()</h2>
+		    <blockquote>
+			index - Search for a given element from among the matched elements
+		    </blockquote>
+		    <p><a target="_blank" href="../examples/index.html">DEMO</a></p>
+		    <p><a target="_blank" href="http://api.jquery.com/index/">API Docs</a></p>
+		</section>

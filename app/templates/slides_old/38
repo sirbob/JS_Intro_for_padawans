@@ -1,0 +1,23 @@
+<section>
+		    <h2>Callbacks</h2>
+		    <p>
+			The idea is:
+		    </p>
+		    <ul>
+			<li>
+			    run a function that does something and when it's finished execute the callback.
+			</li>
+		    </ul>
+		    <pre><code contenteditable>
+function callMeMaybe(){
+    console.log('I'm a callback girl');
+}
+
+$.ajax(function(){
+    //get some Ajax here. Maybe the girls number?
+}, function(){
+    //this is a callback!
+    callMeMaybe();
+})
+</code></pre>
+		</section>

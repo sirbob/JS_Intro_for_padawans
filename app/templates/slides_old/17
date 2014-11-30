@@ -1,0 +1,37 @@
+	<section>
+		    <section>
+			<h2>Document Object Model</h2>
+			<ul>
+			    <li>Defines standard way for accessing and manipulating HTML documents</li>
+			    <li>Represents html document as a tree structure</li>
+
+			</ul>
+		    </section>
+		    <section>
+			<h2>Document Object Model</h2>
+			<pre><code contenteditable>
+<!DOCTYPE HTML>
+&lt;html lang="en-GB">
+&lt;head&gt;
+    &lt;title&gt;Ka-pow!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id="lonely"&gt;&lt;/div&gt;
+	&lt;div id="single_dad"&gt;
+		&lt;div class="daddys_boy"&gt;&lt;/div&gt;
+		&lt;div class="daddys_girl"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+			</pre>
+			<p><img src="../img/dom.png" alt="DOM" /></p>
+		    </section>
+		    <section>
+			<h2>Try it!</h2>
+			<ol>
+			    <li>Use Chrome Dev Tools - Elements Tab to View and Edit DOM (F12 in Chrome)</li>
+			    <li>Note: there can only be one element with a given id, but many with the same class.</li>
+			</ol>
+		    </section>
+		</section>

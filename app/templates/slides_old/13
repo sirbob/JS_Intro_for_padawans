@@ -1,0 +1,16 @@
+<section>
+		    <h3>Anonymous Function</h3>
+		    <ul>
+			<li>Similar to anonymous classes in Java</li>
+			<li>Have no name</li>
+		    </ul>
+		    <pre>
+			<code contenteditable>
+	    var car;
+	    car.drive = function (){
+		console.log(‘vroooom’);
+	    }
+			</code>
+		    </pre>
+		    <p><a target="_blank" href="../examples/anonym.html">Demo</a></p>
+		</section>

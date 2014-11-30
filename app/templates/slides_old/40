@@ -1,0 +1,31 @@
+<section>
+		    <h2>Jquery AJAX()</h2>
+		    <ul>
+			<li>Object Literal example</li>
+			<pre><code contenteditable>var myObject = {
+    sProp: 'some string value',
+    numProp: 2,
+    bProp: false
+};</code></pre>
+			<li><a href="http://api.jquery.com/jQuery.ajax/" target="_blank">API Docs</a></li>
+		    </ul>
+		    <p>Example:</p>
+		    <pre><code contenteditable>
+	$.ajax ({
+	    url: 'http://damo1.herokuapp.com/people/all',
+	    type: 'GET',
+	    dataType: "json",
+	    statusCode:{
+		200: function(data){
+		    $(document).one('ajaxStop', function(){
+			console.log(data.responseText);
+		    });
+		}
+	    },
+	    headers: {
+		'Accept': 'text/*',
+		'Content-Type': 'application/json'
+	    }
+	});
+</code></pre>
+		</section>

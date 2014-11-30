@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="315ad725-a25e-4ffb-b9db-137b71dc6d1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/escape_chars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/grammar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/statements.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/swis.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/typeof.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/13" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/15" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/16" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/17" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/18" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/19" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/20" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/21" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/22" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/23" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/24" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/25" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/26" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/27" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/28" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/29" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/31" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/32" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/33" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/34" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/35" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/36" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/37" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/38" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/39" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/40" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/41" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/42" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/43" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/44" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/45" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/46" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides/9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/slides_old/9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/JS_Intro_for_padawans.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/build.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/pre.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/LICENSE" afterPath="$PROJECT_DIR$/app/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/README.md" afterPath="$PROJECT_DIR$/app/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/print/paper.css" afterPath="$PROJECT_DIR$/app/css/print/paper.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/print/pdf.css" afterPath="$PROJECT_DIR$/app/css/print/pdf.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/reveal.css" afterPath="$PROJECT_DIR$/app/css/reveal.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/reveal.min.css" afterPath="$PROJECT_DIR$/app/css/reveal.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/shaders/tile-flip.fs" afterPath="$PROJECT_DIR$/app/css/shaders/tile-flip.fs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/shaders/tile-flip.vs" afterPath="$PROJECT_DIR$/app/css/shaders/tile-flip.vs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/README.md" afterPath="$PROJECT_DIR$/app/css/theme/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/beige.css" afterPath="$PROJECT_DIR$/app/css/theme/beige.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/default.css" afterPath="$PROJECT_DIR$/app/css/theme/default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/night.css" afterPath="$PROJECT_DIR$/app/css/theme/night.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/serif.css" afterPath="$PROJECT_DIR$/app/css/theme/serif.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/simple.css" afterPath="$PROJECT_DIR$/app/css/theme/simple.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/sky.css" afterPath="$PROJECT_DIR$/app/css/theme/sky.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/beige.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/beige.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/default.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/default.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/night.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/night.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/serif.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/serif.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/simple.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/simple.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/source/sky.scss" afterPath="$PROJECT_DIR$/app/css/theme/source/sky.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/template/mixins.scss" afterPath="$PROJECT_DIR$/app/css/theme/template/mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/template/settings.scss" afterPath="$PROJECT_DIR$/app/css/theme/template/settings.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/css/theme/template/theme.scss" afterPath="$PROJECT_DIR$/app/css/theme/template/theme.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/damo.html" afterPath="$PROJECT_DIR$/app/index_old.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/grunt.js" afterPath="$PROJECT_DIR$/app/grunt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/index.html" afterPath="$PROJECT_DIR$/app/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/js/reveal.js" afterPath="$PROJECT_DIR$/app/js/reveal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/js/reveal.min.js" afterPath="$PROJECT_DIR$/app/js/reveal.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/app/lib/css/zenburn.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/font/league_gothic-webfont.eot" afterPath="$PROJECT_DIR$/app/lib/font/league_gothic-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/font/league_gothic-webfont.svg" afterPath="$PROJECT_DIR$/app/lib/font/league_gothic-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/font/league_gothic-webfont.ttf" afterPath="$PROJECT_DIR$/app/lib/font/league_gothic-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/font/league_gothic-webfont.woff" afterPath="$PROJECT_DIR$/app/lib/font/league_gothic-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/font/league_gothic_license" afterPath="$PROJECT_DIR$/app/lib/font/league_gothic_license" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/js/classList.js" afterPath="$PROJECT_DIR$/app/lib/js/classList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/js/head.min.js" afterPath="$PROJECT_DIR$/app/lib/js/head.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/app/lib/js/html5shiv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/package.json" afterPath="$PROJECT_DIR$/app/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/app/plugin/highlight/highlight.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/app/plugin/markdown/markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/markdown/showdown.js" afterPath="$PROJECT_DIR$/app/plugin/markdown/showdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/app/plugin/notes-server/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/app/plugin/notes-server/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/app/plugin/notes-server/notes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/app/plugin/notes/notes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/app/plugin/notes/notes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/postmessage/example.html" afterPath="$PROJECT_DIR$/app/plugin/postmessage/example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/postmessage/postmessage.js" afterPath="$PROJECT_DIR$/app/plugin/postmessage/postmessage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/app/plugin/print-pdf/print-pdf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/app/plugin/remotes/remotes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reveal.js-master/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/app/plugin/zoom-js/zoom.js" />
+    </list>
+    <ignored path="JS_Intro_for_padawans.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JS_Intro_for_padawans" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.8214285" vertical-offset="149" max-vertical-offset="532">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.357143" vertical-offset="220" max-vertical-offset="1102">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="342">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/7.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.857143" vertical-offset="217" max-vertical-offset="1197">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/8.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.035714" vertical-offset="697" max-vertical-offset="1197">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/9.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.5" vertical-offset="127" max-vertical-offset="722">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reveal.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/css/reveal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9243028" vertical-offset="5901" max-vertical-offset="24814">
+              <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.428572" vertical-offset="906" max-vertical-offset="1463">
+              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5714285" vertical-offset="1229" max-vertical-offset="1729">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#section#1;n#section#6;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/slides/2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="361">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/templates/slides/18" />
+        <option value="$PROJECT_DIR$/app/templates/slides/19" />
+        <option value="$PROJECT_DIR$/app/templates/slides/20" />
+        <option value="$PROJECT_DIR$/app/templates/slides/21" />
+        <option value="$PROJECT_DIR$/app/templates/slides/22" />
+        <option value="$PROJECT_DIR$/app/templates/slides/23" />
+        <option value="$PROJECT_DIR$/app/templates/slides/24" />
+        <option value="$PROJECT_DIR$/app/templates/slides/25" />
+        <option value="$PROJECT_DIR$/app/templates/slides/26" />
+        <option value="$PROJECT_DIR$/app/templates/slides/27" />
+        <option value="$PROJECT_DIR$/app/templates/slides/28" />
+        <option value="$PROJECT_DIR$/app/templates/slides/29" />
+        <option value="$PROJECT_DIR$/app/templates/slides/30" />
+        <option value="$PROJECT_DIR$/app/templates/slides/31" />
+        <option value="$PROJECT_DIR$/app/templates/slides/32" />
+        <option value="$PROJECT_DIR$/app/templates/slides/33" />
+        <option value="$PROJECT_DIR$/app/templates/slides/34" />
+        <option value="$PROJECT_DIR$/app/templates/slides/35" />
+        <option value="$PROJECT_DIR$/app/templates/slides/36" />
+        <option value="$PROJECT_DIR$/app/templates/slides/37" />
+        <option value="$PROJECT_DIR$/app/templates/slides/38" />
+        <option value="$PROJECT_DIR$/app/templates/slides/39" />
+        <option value="$PROJECT_DIR$/app/templates/slides/40" />
+        <option value="$PROJECT_DIR$/app/templates/slides/41" />
+        <option value="$PROJECT_DIR$/app/templates/slides/42" />
+        <option value="$PROJECT_DIR$/app/templates/slides/43" />
+        <option value="$PROJECT_DIR$/app/templates/slides/44" />
+        <option value="$PROJECT_DIR$/app/templates/slides/45" />
+        <option value="$PROJECT_DIR$/app/templates/slides/46" />
+        <option value="$PROJECT_DIR$/app/templates/slides/1" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides_old/1" />
+        <option value="$PROJECT_DIR$/app/templates/slides/0" />
+        <option value="$PROJECT_DIR$/app/templates/slides/2" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/3" />
+        <option value="$PROJECT_DIR$/app/templates/slides/10" />
+        <option value="$PROJECT_DIR$/app/build.sh" />
+        <option value="$PROJECT_DIR$/app/templates/slides/1.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/2.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/5.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/6.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/3.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/7.html" />
+        <option value="$PROJECT_DIR$/app/index_old.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/4.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/10.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/8.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/0.html" />
+        <option value="$PROJECT_DIR$/app/templates/slides/9.html" />
+        <option value="$PROJECT_DIR$/app/css/reveal.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="bob" pattern="file[JS_Intro_for_padawans]:app/templates//*" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slides" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS_Intro_for_padawans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/build.sh" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="watcher.settings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/app/templates/slides" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/app/templates/slides" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Bash.build.sh">
+    <configuration default="false" name="0.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS_Intro_for_padawans/app/templates/slides/0.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="10.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS_Intro_for_padawans/app/templates/slides/10.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index_old.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS_Intro_for_padawans/app/index_old.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pre.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS_Intro_for_padawans/app/templates/pre.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="build.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/templates" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="JS_Intro_for_padawans" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/templates/build.sh" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="BashRunner" />
+      <ConfigurationWrapper RunnerId="BashRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="JS_Intro_for_padawans" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.0.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.10.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index_old.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.pre.html" />
+      <item index="4" class="java.lang.String" itemvalue="Bash.build.sh" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Bash.build.sh" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.0.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.pre.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index_old.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.10.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="315ad725-a25e-4ffb-b9db-137b71dc6d1d" name="Default" comment="" />
+      <created>1417115265006</created>
+      <option name="number" value="Default" />
+      <updated>1417115265006</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15243903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15243903" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15508886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3307927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/22">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/23">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/24">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/25">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/26">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/27">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/28">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/29">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/31">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/32">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/33">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/34">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/35">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/36">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/37">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/38">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/39">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/40">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="684">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/41">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/42">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10754717" vertical-offset="0" max-vertical-offset="530">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/43">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7169811" vertical-offset="0" max-vertical-offset="530">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/44">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83773583" vertical-offset="50" max-vertical-offset="608">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/45">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46603775" vertical-offset="0" max-vertical-offset="530">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/46">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10754717" vertical-offset="0" max-vertical-offset="530">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7528302" vertical-offset="0" max-vertical-offset="589">
+          <caret line="21" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046004843" vertical-offset="0" max-vertical-offset="413">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2961039" vertical-offset="0" max-vertical-offset="385">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092009686" vertical-offset="0" max-vertical-offset="413">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36803874" vertical-offset="0" max-vertical-offset="413">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/13">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13801453" vertical-offset="0" max-vertical-offset="413">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides_old/9">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="931">
+          <caret line="6" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0182767" vertical-offset="1156" max-vertical-offset="7220">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.535714" vertical-offset="2334" max-vertical-offset="14079">
+          <caret line="131" column="18" selection-start-line="72" selection-start-column="7" selection-end-line="131" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="361">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.357143" vertical-offset="220" max-vertical-offset="1102">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8214285" vertical-offset="149" max-vertical-offset="532">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5714285" vertical-offset="1229" max-vertical-offset="1729">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#section#1;n#section#6;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.035714" vertical-offset="697" max-vertical-offset="1197">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.428572" vertical-offset="906" max-vertical-offset="1463">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.857143" vertical-offset="217" max-vertical-offset="1197">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="342">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/slides/9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5" vertical-offset="127" max-vertical-offset="722">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9243028" vertical-offset="5901" max-vertical-offset="24814">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>bob</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="bob" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

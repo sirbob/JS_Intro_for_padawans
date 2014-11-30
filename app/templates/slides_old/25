@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – next()</h2>
+		    <blockquote>
+			next() - Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector
+		    </blockquote>
+
+		    <p><a target="_blank" href="http://api.jquery.com/next/">API Docs</a></p>
+		</section>

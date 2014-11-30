@@ -1,0 +1,26 @@
+<section>
+		    <h3>Namespaces!</h3>
+		    <ul>
+			<li>JS has no namespaces</li>
+			<li>Two libraries with the same name global variable can clash</li>
+			<li>There are some "hacks" that you can use</li>
+		    </ul>
+		    <p>Common approach:</p>
+		    <pre>
+			<code contenteditable>
+//1. create global object var for your app
+var DAMO= {};
+
+//2. populate your it with vars, functions.
+DAMO.burp = function(){console.log('baaaa!')}
+
+//3. if you want to call your own burp(), then it's hidden in DAMO!
+DAMO.burp() //prints baaaa!
+burp()	    //undefined!
+
+//THE DEEPER YOU NEST THE LESS CHANCE OF CLASHING
+//... and understanding WTF your code does :-P
+</code>
+		    </pre>
+		    <p><a target="_blank" href="http://addyosmani.com/blog/essential-js-namespacing/">Addy Osmani on Namespacing</a></p>
+		</section>

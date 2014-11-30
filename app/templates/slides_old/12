@@ -1,0 +1,9 @@
+	<section>
+		    <h3>Functions and ()</h3>
+		    <ul>
+			<li>We now know that function is an object</li>
+			<li>To execute function you use ()</li>
+			<li>Self executing function example:</li>
+		    </ul>
+		    <p><a target="_blank" href="../examples/functions_3.html">Demo</a></p>
+		</section>

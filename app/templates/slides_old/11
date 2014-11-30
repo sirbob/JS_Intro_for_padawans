@@ -1,0 +1,6 @@
+	<section>
+		    <h3>Function - 1st Citizen</h3>
+		    <p>Functions are objects that can be referenced, passed and assigned to (e.g. other function, null, etc).</p>
+		    <p><a target="_blank" href="../examples/functions_1.html">Demo 1</a></p>
+		    <p><a target="_blank" href="../examples/functions_2.html">Demo 2</a></p>
+		</section>

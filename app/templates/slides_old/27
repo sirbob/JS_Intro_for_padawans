@@ -1,0 +1,8 @@
+<section>
+		    <h2>Traversal methods – closest()</h2>
+		    <blockquote>
+			closest(selector) - For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree.
+		    </blockquote>
+
+		    <p><a target="_blank" href="http://api.jquery.com/closest/">API Docs</a></p>
+		</section>

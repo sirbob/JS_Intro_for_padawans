@@ -1,0 +1,18 @@
+<section>
+		    <h2>Events - Old School</h2>
+		    <pre><code contenteditable>
+target.addEventListener(type, listener);
+</code></pre>
+		    <p>Or in IE < 9</p>
+		    <pre><code contenteditable>
+target.attachEvent('onclick', modifyText);
+</code></pre>
+
+		    <p>Example</p>
+		    <pre><code contenteditable>
+myBut.addEventListener(‘onclick’, function(){alert(‘yo’)})
+//Or in IE < 9
+myBut.attachEvent(‘onclick’, myOtherFunc)
+
+</code></pre>
+		</section>

@@ -1,0 +1,11 @@
+<section>
+		    <h2>jQuery Selectors – multiple match</h2>
+		    <p>
+			No need to iterate over, just apply method/function you want
+		    </p>
+		    <pre><code contenteditable>//change all divs background to red
+$(‘div’).css(‘background’ , ’red’);
+$(‘div’).addClass(‘someClass’);
+</code></pre>
+		    <p><a target="_blank" href="../examples/multiple_css.html">Demo</a></p>
+		</section>

@@ -1,0 +1,9 @@
+		<section>
+		    <h2>jQuery Wrapper</h2>
+		    <ul>
+			<li>$(selector) wraps the matched elements in a jQuery wrapper object.</li>
+			<li>jQuery wrapper is never null!</li>
+			<li>Use length === 0 to test for existence (if 0 then nothing matched)</li>
+		    </ul>
+		    <p><a target="_blank" href="../examples/length.html">Demo</a></p>
+		</section>

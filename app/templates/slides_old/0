@@ -1,0 +1,26 @@
+<section>
+  <h3>Notes:</h3>
+  <ul>
+  <li>closures</li>
+  <li>hoisting</li>
+  <li>this + scopes</li>
+  <li>data types</li>
+  <li>falsy / truthy values</li>
+  <li>strict eq</li>
+  <li>semicolons autocomplete</li>
+  <li>Object Literal</li>
+  <li>Arrays + operations</li>
+  <li>typeof, isArray etc.</li>
+  <li>functions 1st class</li>
+  <li>currying</li>
+  <li>map, reduce, filter</li>
+<li>anonymous aka lambda</li>
+<li>modules + namespaces</li>
+<li>events + delegation + onload vs ready + bubbling etc</li>
+<li>ASYNC: callbacks, promises, futures, ajax, JSON.parse</li>
+<li>prototypal inheritance</li>
+<li>strict mode</li>
+<li>tricks</li>
+
+  </ul>
+</section>

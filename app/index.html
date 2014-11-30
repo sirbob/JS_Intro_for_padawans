@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <title>JS Intro</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides"> <section>
+ <h3>Data Type and basics</h3>
+	 <ul>
+	 <li>data types</li>
+	 <li>falsy / truthy values</li>
+	 <li>strict eq == ===</li>
+	 <li>semicolons autocomplete</li>
+	    <li>Arrays + operations</li>
+	     <li>typeof, isArray etc.</li>
+	</ul>
+
+<h3>Object</h3>
+	<ul>
+		 <li>Object Literals
+	 <li>Creating Objects
+	 <li>Built-in Objects
+	 <li>JSON
+	 	<li>The Math Object
+	<li>The Date Object
+	<li>The RegExp Object
+	</ul>
+
+<h3>Functions</h3>
+	<ul>
+		<li>First class citizen
+		<li>Defining a Function
+		<li>Return Values</li>
+		<li>Parameters and Arguments</li>
+		<li>Scope
+		<li>Hoisting
+		<li>Callbacks
+		<li>Array Iterators
+		<li>currying</li>
+		<li>anonymous aka lambda</li>
+	</ul>
+
+<h3>Functional JavaScript</h3>
+	<ul>
+		<li>What is Functional Programming?
+		<li>Function Properties and Methods
+		<li>Callbacks
+		<li>Closures
+		<li>Immediately Invoked Function Expressions
+		<li>Functions that Define and Rewrite Themselves
+		<li>Recursive Functions
+		<li>Currying
+	</ul>
+
+<h3>Object-oriented Programming in JavaScript</h3>
+	<ul>
+		<li>Object-oriented Programming
+		<li>Constructor Functions
+		<li>Prototypal Inheritance
+		<li>Public and Private Methods
+		<li>Inheritance
+		<li>The Object Constructor Function
+		<li>Creating Objects from Objects
+		<li>Adding Methods to Built-in Objects
+		<li>Mixins
+		<li>Chaining Functions
+		<li>This and That
+		<li>Borrowing Methods from Prototypes
+	</ul>
+
+<h3>Organizing Your Code</h3>
+	<ul>
+		<li>namespaces and collisions
+		<li>Modules
+		<li>patterns
+		 </ul>
+      </section>
+<section>
+    <h1>JS Essentials</h1>
+    <h3>(Padawan Level)</h3>
+    <p>
+        <small>Created by <a href="http://twitter.com/damo_inc">@damo_inc</a></small>
+    </p>
+</section><section>
+    <section>
+        <h2>“My Story” -  by JS</h2>
+        <blockquote>
+            JS had to "look like Java" only less so, [it had to] be Java's dumb kid brother or boy-hostage sidekick. Plus, it had to be done in ten days or something worse than JS would have happened
+
+        </blockquote>
+        Brendan Eich, JS Creator
+    </section>
+    <section>
+        <h2>True Story</h2>
+        <p><img  src="../img/java_js.jpg" alt="Down arrow"></p>
+    </section>
+</section><section>
+    <section>
+        <h2>But JS sucks big time...</h2>
+        <img src="../img/dog.jpg" />
+    </section>
+    <section>
+        <h2>try learning it first... maybe</h2>
+        <blockquote>
+        Most people [...] don’t even bother to learn JavaScript first, and then they are surprised
+        when JavaScript turns out to have significant differences from the some other
+        language they would rather be using, and that those differences matter.
+        </blockquote>
+         Douglas Crockford
+    </section>
+    <section>
+        <blockquote>
+            There are only two kinds of languages: the ones people complain about and the ones nobody uses.
+
+        </blockquote>
+        Bjarne Stroustrup
+        <p><br>...and JS is used a lot ;-)</p>
+    </section>
+</section><section>
+    <h2>Grammar (Some)</h2>
+    <img src="../img/grammar.jpg" />
+</section>
+
+<section>
+    <h2>Dynamically Typed</h2>
+    <ul>
+        <li>You do not declare variable types</li>
+        <li>JavaScript's typing is dynamic (meaning a variable can hold an object of any type and cannot be restricted).</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Variable Scope</h2>
+    <ul>
+        <li>Global - set on window when you run &lt;script&gt;</li>
+        <li>Function – set privately inside of the function</li>
+        <li>No block scope</li>
+        <li>"this" keyword – refers to object currently running the function (well, this is more complicated)</li>
+    </ul>
+    <p><a target="_blank" href="../examples/this.html">Demo</a></p>
+    More about contexts later...
+</section>
+
+<section>
+    <h2>Operators & Statements</h2>
+    <ul>
+        <li>*Almost* the same as Java</li>
+        <li>+ (addition and String concatenation), -, *, / </li>
+        <li>&&, ||, ++, --, etc</li>
+        <li>Comments - Same as in Java (/* ... */ and // ...)</li>
+    </ul>
+</section>
+<section>
+    <h2>==  and  === Example</h2>
+    <ul>
+        <li>The == comparison (just value, type coercion)</li>
+        <li>The The === operator (value and type)</li>
+        <li>Prefer === (strings can be compared with ==)</li>
+    </ul>
+    <p><a target="_blank" href="../examples/equality.html">Demo</a></p>
+    <p>
+        Reference:  <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Comparison_Operators">MDN</a>
+    </p>
+</section>
+<section>
+    <section>
+        <h2>Semicolons</h2>
+        <h5>Semicolons are not mandatory (but helpful!)</h5>
+        <p>Example:</p>
+			<pre>
+			<code contenteditable>
+                return x
+
+                return
+                x
+            </code>
+			</pre>
+        <p>Press down key for answer</p>
+        <p class="fragment">In the second one JS will first return, then evaluate x</p>
+    </section>
+</section>
+<section>
+    <section>
+    <h2>statements</h2>
+    <img src="../img/statements.png" />
+    </section>
+    <section>
+        <h2 style="text-transform: lowercase !important">typeof operator</h2>
+        <ul>
+            <li>The values produced by typeof are: <br>
+                <pre><code>'number', 'string', 'boolean', 'undefined', 'function',  'object'
+                </code></pre>
+
+            <li>If the operand is an <u>array</u> or <u>null</u>, then the result is<br> <strong>'object'</strong> - WRONG!
+        </ul>
+        <img src="../img/typeof.jpg" />
+    </section>
+</section>
+<section>
+    <section>
+        <h1>Data Types</h1>
+        <img src="../img/bool_morena.jpg" />
+    </section>
+</section><section>
+    <h2>Data Types</h2>
+    <ul>
+        <li>String (no Char) – double or single quotes</li>
+        <li>Number – 64 bit double float. 11.0 is the same as 11. Don’t do financial Math in JS!</li>
+        <li>Object</li>
+        <li>Array</li>
+        <li>Boolean</li>
+        <li>Undefined - is the value of a variable with no value</li>
+        <li>Null - variables can be emptied by setting the value to null</li>
+        <li>NaN</li>
+    </ul>
+</section><section>
+    <section>
+        <h2>Strings</h2>
+        <ul>
+            <li>single or double quotes</li>
+            <li>all characters are 16 bit Unicode</li>
+            <li>JS does not have char type</li>
+            <li>"\" escapes special characters</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>JS Escape Chars</h2>
+        <img src="../img/escape_chars.png"/>
+        <small>Borrowed from "JavaScript - The Good Parts" book</small>
+
+    </section>
+
+    <section>
+        <h2>literal vs object</h2>
+            <pre>
+            <code>
+                /* Literal - creates primitive */
+                var str1 = "foo";
+                var str2 = "foo";
+
+                /* Literal - creates object */
+                var strObj1 = new String("foo");
+                var strObj2 = new String("foo");
+
+                typeof strObj1;         //"object"
+                typeof str1;            //"string"
+
+                str1    === str2;       //true
+                strObj1 === strObj2;    //false
+                str1    ==  strObj1;    //true
+                str1    === strObj1;    //false
+            </code>
+                </pre>
+    </section>
+    <section>
+        <h2>Use literals - should be faster!</h2>
+        <p>Literals will be autoboxed/unboxed when required. <br>Most implementation do this efficiently by just adding methods that you want to use.</p>
+        <pre>
+            <code>
+    /* primitive with no methods - just a memory allocation. */
+    var s = 'foo';
+    /* autoboxing below, but only substring() will be added. */
+    s.substring('f');
+            </code>
+        </pre>
+    </section>
+</section><section>
+    <section>
+    <h2>Numbers</h2>
+    <ul>
+        <li>single Number type</li>
+        <li>64-bit floating point - same as Java double</li>
+        <li>no separate integer type, e.g. 1 and 1.0 are the same value</li>
+        <li>so, no problems with int overflows :-)</li>
+
+    </ul>
+    </section>
+    <section>
+        <h2>Special values - NaN</h2>
+        <ul>
+        <li>NaN - result of an operation that cannot produce a normal result</li>
+        <li> NaN is not equal to any value, including itself</li>
+        <li>detect NaN with the isNaN(number) function.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Special values - infinity</h2>
+       <p>Infinity represents all values greater than
+           <pre>
+        <code>                        1.79769313486231570e+308</code></pre> </p>
+    </section>
+    <section>
+        <h2>string conversion</h2>
+        <pre>
+            <code>
+                var num = +"1000";
+
+                //parseInt(string, radix)
+                var num = parseInt("1000", 10); //preferred!
+
+                var num = parseFloat("1000.32", 10);
+            </code>
+        </pre>
+    </section>
+    <section>
+        <h2>Good practices</h2>
+        <h4></h4>
+
+        <p> Always specify radix in parseInt(string, radix). <br>Otherwise:
+            <ol>
+                <li>"0x", then radix is 16 (hexadecimal)
+                <li>"0", then radix is 8 (octal). This feature is deprecated
+                <li>If the string begins with any other value, the radix is 10 (decimal)
+            </ol>
+        Most of the time, you will use :
+<pre><code>
+
+    var my_int = parseInt(my_string, 10);
+
+</code> </pre>
+        </p>
+
+    </section>
+</section><section>
+    <section>
+        <h2>Boolean</h2>
+        <div class="reveal">
+            <h3>Falsy Values</h3>
+            <table>
+                <tr>
+                    <th>Value</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>Number</td>
+                </tr>
+                <tr>
+                    <td>"" (empty string)</td>
+                    <td>String</td>
+                </tr>
+                <tr>
+                    <td>NaN</td>
+                    <td>Number</td>
+                </tr>
+                <tr>
+                    <td>false</td>
+                    <td>Boolean</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>Object</td>
+                </tr>
+                <tr>
+                    <td>undefined</td>
+                    <td>Undefined</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <h3>Truthy Values</h3>
+        <p>“true”: anything else (including the string “false”!)</p>
+    </section>
+
+    <section>
+        <h3>|| operator</h3>
+        <pre><code>
+            var name = 'Damo Bobson';
+            var greeting = name || 'John Doe';
+            console.log(greeting); //prints Damo Bobson
+        </code></pre>
+        <pre><code>
+            var name = "";
+            var greeting = name || 'John Doe';
+            console.log(greeting); //prints John Doe
+        </code></pre>
+
+    </section>
+
+</section><section>
+    <h2>Arrays</h2>
+    <img src="../img/swis.jpg" />
+</section>
+
+        <section>
+            <table>
+                <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Value</th>
+                    <th>Quantity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Apples</td>
+                    <td>$1</td>
+                    <td>7</td>
+                </tr><tr>
+                </tr><tr>
+                    <td>Lemonade</td>
+                    <td>$2</td>
+                    <td>18</td>
+                </tr><tr>
+                </tr><tr>
+                    <td>Bread</td>
+                    <td>$3</td>
+                    <td>2</td>
+                </tr><tr>
+                </tr></tbody>
+            </table>
+        </section></div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
